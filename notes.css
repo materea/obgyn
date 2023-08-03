@@ -1,0 +1,235 @@
+/* :root {
+  --color-primary: #172a46;
+  --color-primary: #9da8c7;
+  --color-primary: #08162a;
+  --color-darker: #03080f;
+  --color-darker: #749bd1;
+  --color-darker: #ccd6f6;
+  --color-yellow: #faa356;
+  --color-red: #fa7970;
+  --color-secondary: #7ce38b;
+  --color-ash: #89929b;
+  --font-family-primary: 'Roboto Mono', monospace;
+  --font-family-secondary: 'Rubik Mono One', sans-serif;
+  --td: 150ms;
+  --te: cubic-bezier(0.215, 0.61, 0.355, 1);
+} */
+
+:root {
+  --color-primary: #fff;
+  --color-primary: #fff;
+  --color-primary: #fff;
+  --color-darker: #001028;
+  --color-darker: #001028;
+  --color-darker: #001028;
+  /* --color-yellow: #faa356; */
+  --color-red: #7e3b36;
+  --color-secondary: #1e6cc5;
+  --color-ash: #89929b;
+  --font-family-primary: 'Poppins', sans-serif;
+  --font-family-secondary: 'Rubik Mono One', sans-serif;
+  --td: 150ms;
+  --te: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 0.9rem;
+  }
+  
+  * {
+    scroll-behavior: inherit;
+  }
+  
+  
+  .notes article .title {
+    font-size: 3rem;
+  }
+  
+  .notes article section {
+    background-color: inherit;
+  }
+  
+  .notes article section > * {
+    background-color: var(--color-primary);
+  }
+  
+  .notes article section header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 3rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  
+  .notes article section header > * {
+    font-size: inherit;
+  }
+  
+  .notes article section > header {
+    border-bottom: 2px solid var(--color-darker);
+    font-size: 1.15rem;
+    top: 0rem;
+    z-index: 6;
+    line-height: 1;
+
+  }
+  
+  .notes article section section:target {
+    scroll-margin-top: 3rem;
+  }
+  
+  .notes article section section > header {
+    border-bottom: 1px solid var(--color-darker);
+    font-size: 1.1rem;
+    top: 3rem;
+    z-index: 5;
+    line-height: 1;
+  }
+  
+  .notes article section section section:target {
+    scroll-margin-top: 6rem;
+  }
+  
+  .notes article section section section > header {
+    border-bottom: 1px dotted var(--color-darker);
+    font-size: 1rem;
+    top: 6rem;
+    z-index: 4;
+  }
+
+  #top {
+    background-color: var(--color-primary);
+    margin: 0;
+    padding: 0;
+  }
+
+  .notes h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .notes header a{
+    color: var(--color-darker);
+    text-decoration: none;
+  }
+
+  .outline ol li {
+    margin: 5px 0;
+  }
+
+  .outline ol li a{
+    color: var(--color-primary);
+  }
+
+figcaption {
+  font-size: .8rem;
+}
+
+.tips-card {
+  border: 1px solid var(--color-darker);
+  padding: .5rem 1rem;
+}
+
+.tips-card-subtitle {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: .8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.tips-card-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 19px;
+  line-height: 19px;
+  font-weight: 600;
+}
+.tips-card-content {
+  margin: 0;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+.tips-card ul {
+  list-style-type: '◾'; 
+}
+
+.tips-card ul li{
+  padding-left: 4px;
+}
+
+.drugs-list {
+  list-style-type: '💊'; 
+}
+
+.author-flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.author-flex img {
+  width: 2rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: block;
+}
+
+.author-img {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+}
+
+.author-flex .name {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+}
+
+.author-flex .updated {
+  font-size: 0.6875rem;
+  opacity: 0.5;
+  font-style: italic;
+  margin-top: .25rem;
+}
+
+.contact {
+  font-size: 0.8rem;
+}
+
+.contact a{
+  text-decoration: none;
+}
+
+.msg {
+  font-style: normal;
+}
+
+.msg a{
+  font-style: normal;
+}
+
+
+@media (min-width: 700px) {
+figure img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    height: auto;
+  }
+
+}
+
