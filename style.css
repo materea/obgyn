@@ -119,7 +119,14 @@ blockquote {
   padding: 1.5rem;
 }
 
+.course-description-text{
+  padding: 2rem;
+}
 
+.course-description-text p{
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
 
 .go-to a{
   background-color: var(--color-darker);
@@ -808,7 +815,7 @@ blockquote {
   margin-top: 0;
   padding: 16px 0 16px 25px;
   border-top: 1px solid #ccc;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .topics ul li a{
