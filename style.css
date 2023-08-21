@@ -217,21 +217,21 @@ blockquote {
 
 [id="main-navigation-toggle"] ~ label span {
   display: block;
-  height: 2rem;
+  height: 1.4rem;
   padding: 0.5rem;
   position: relative;
   -webkit-transition: -webkit-transform calc(var(--td) * 3) var(--te);
   transition: -webkit-transform calc(var(--td) * 3) var(--te);
   transition: transform calc(var(--td) * 3) var(--te);
   transition: transform calc(var(--td) * 3) var(--te), -webkit-transform calc(var(--td) * 3) var(--te);
-  width: 2rem;
+  width: 1.4rem;
 }
 
 [id="main-navigation-toggle"] ~ label span::before, [id="main-navigation-toggle"] ~ label span::after {
   background-color: var(--color-primary);
   bottom: 0;
   content: '';
-  height: 4px;
+  height: 4.5px;
   left: 0;
   margin: auto;
   position: absolute;
@@ -340,13 +340,17 @@ blockquote {
   width: auto;
   padding: 0.5rem 0.5rem 0.8rem 0.5rem;
   text-align: center;
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 700;
-  line-height: 2rem;
+  line-height: 1.4rem;
   color: var(--color-primary);
   font-family: var(--font-family-primary);
   z-index: 98;
   border-radius: 7px;
+}
+
+.logo-dot {
+  color: var(--color-red);  
 }
 
 .menu {

@@ -34,14 +34,18 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 0.8rem;
-    line-height: 1.5;
+    
   }
   
   * {
     scroll-behavior: inherit;
   }
   
+  
+  .notes {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
   
   .notes article .title {
     font-size: 3rem;
