@@ -1072,7 +1072,6 @@ img {
   bottom: -30%;
   display: inline-flex;
   padding: .5rem;
-  /* border-radius: .25rem; */
   z-index: 98;
   opacity: 1;
   transition: .4s;
@@ -1392,4 +1391,14 @@ figcaption {
   box-sizing: border-box;
   font-size: 0.8rem;
   font-family: var(--font-family-primary);
+}
+
+
+
+
+
+#top {
+  background-color: var(--color-primary);
+  margin: 0;
+  padding: 0;
 }
