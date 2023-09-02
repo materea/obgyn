@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Nutritional Assessment</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+    <h1>Nutritional Assessment</h1>
+  
+    <!-- <div class="author-flex">
+      <div class="author-img">
+        <img  src="/contributors/vt1.jpeg" alt="">
+      </div>
+      <div>
+        <h2 class="name">Compiled by Victortayo</h2>
+        <p class="updated">last updated</p>
+      </div>
+    </div> -->
+
+    <article class="notes">
+        <a id='top'></a>
+    <article>
+    <!-- <h2 class='title'>Outline</h2> -->
+
+    <div class="outline2">
+
+      <input type="radio" name="control-2" id="show-2">
+      <label for="show-2">Show Outline</label>
+      <input type="radio" name="control-2" id="hide-2">
+      <label for="hide-2">Hide Outline</label>
+      <div class="contents">
+        <ol>
+          <li><a href="#header-1">Introduction</a></li>
+          <li><a href="#header-2">Goals of Nutritional Assessment</a></li>
+          <li><a href="#header-3">Assessment of Nutritional Status</a></li>
+          <li><a href="#header-4">Anthropometry Measurements</a></li>
+          <li><a href="#header-5">Interpreting Growth Indicators</a></li>
+          <li><a href="#header-6">Classification of Nutritional Status</a></li>
+          <li><a href="#header-7">Laboratory Investigations</a></li>
+          <li><a href="#header-8">Conclusion</a></li>
+      </div>
+     <div>
+
+
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Introduction</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>Nutritional assessment can be defined as:</p>
+            <blockquote>
+                <p>"The interpretation of information obtained from anthropometric, biochemical, clinical, and dietary studies."</p>
+            </blockquote>
+            <p><strong>Nutritional status</strong> refers to the health status of the body in relation to a nutrient or group of nutrients and the body's response to nutrients, leading to subsequent outcomes.</p>
+            <p>The nutritional status of an individual is often the result of many interrelated factors.</p>
+            <p>Adequate nutritional status is an essential requirement for children's growth and development.</p>
+            <p><strong>Growth</strong> is the best indicator of nutritional status in children.</p>
+            <p>Assessing the nutritional status of a group of children (nutritional assessment) is an essential part of ensuring a healthy community.</p>
+            
+        </div>
+
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Goals of Nutritional Assessment</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>Nutritional assessment serves as the foundation of nutrition in children and should be integrated into clinical evaluation. Its goals include:</p>
+            <ul>
+                <li>Evaluate the child's health and nutritional status.</li>
+                <li>Determine the risk or presence of malnutrition.</li>
+                <li>Provide guidelines for short-term and long-term therapy and monitoring.</li>
+            </ul>
+            <p>Nutritional assessment is used to determine the nutritional status of populations to:</p>
+            <ul>
+                <li><strong>Identify:</strong> Identify public health nutrition issues to design appropriate interventions.</li>
+                <li><strong>Monitor:</strong> Monitor the effectiveness of nutritional interventions.</li>
+                <li><strong>Conduct:</strong> Conduct nutritional surveillance of vulnerable groups such as infants, young children, and pregnant women.</li>
+                <li><strong>Recognize:</strong> Recognize nutritional problems and growth issues in individuals.</li>
+                <li><strong>Carry Out:</strong> Carry out optimal nutritional care for hospitalized patients.</li>
+            </ul>
+            
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Assessment of Nutritional Status</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>The assessment of nutritional status can be summarized using the mnemonic <strong>ABCD</strong>:</p>
+            <ul>
+                <li><strong>A - Anthropometry measurement</strong></li>
+                <li><strong>B - Biochemical test</strong></li>
+                <li><strong>C - Clinical assessment (Medical History & Physical examination)</strong></li>
+                <li><strong>D - Dietary assessment</strong></li>
+            </ul>
+            
+
+            <div class="image-container">
+                <img src="../figures/" alt="" onclick="openModal(this)">
+                <div class="caption"></div>
+              </div>
+              
+              <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImage">
+                <div id="caption" class="caption"></div>
+              </div>
+
+              <section id='heading-4-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-1'>Medical History</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <p>The medical history serves as the initial step in any nutritional assessment and should explore potential causes of undernutrition, including:</p>
+                    <ul>
+                        <li><strong>Inadequate Intake:</strong> Abnormalities in sucking, swallowing, and deglutition, incorrect food preparation, anorexia.</li>
+                        <li><strong>Increased Losses:</strong> Vomiting, diarrhea.</li>
+                        <li><strong>Increased Metabolic Demands:</strong> Infection, inflammation, cardiac disorders, burns, surgery.</li>
+                        <li><strong>Alteration in Nutrient Metabolism:</strong> Drugs, hormonal abnormalities.</li>
+                    </ul>
+                    <p>Socioeconomic and psychological factors should also be investigated, such as:</p>
+                    <ul>
+                        <li>Children’s food intake.</li>
+                        <li>Poverty: Lack of money to purchase food, inadequate facilities to store and prepare food, different beliefs related to food intake (fasting or vegan behavior).</li>
+                        <li>Child abuse or neglect may contribute to poor food intake and should be explored when children are deemed at risk.</li>
+                        <li>The patient’s prescribed medication should be reviewed for potential drug-nutrient interactions, increased macro- or micronutrient requirements, and gastrointestinal-related side effects.</li>
+                    </ul>
+                    
+                    <h4>Dietary Assessment Methods</h4>
+                    <p>There are two major groups of individual dietary assessment methods:</p>
+                    
+
+                    <div class="image-container">
+                        <img src="../figures/" alt="" onclick="openModal(this)">
+                        <div class="caption"></div>
+                      </div>
+                      
+                      <div id="myModal" class="modal">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <img class="modal-content" id="modalImage">
+                        <div id="caption" class="caption"></div>
+                      </div>
+
+                      <div class="image-container">
+                        <img src="../figures/" alt="" onclick="openModal(this)">
+                        <div class="caption"></div>
+                      </div>
+                      
+                      <div id="myModal" class="modal">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <img class="modal-content" id="modalImage">
+                        <div id="caption" class="caption"></div>
+                      </div>
+
+
+                    <h4>Prospective Methods: Food Diaries</h4>
+
+                    <p><strong>Weighed Food Diary</strong></p>
+                    <ul>
+                        <li>Details of food and drink intake are recorded by the individual when they eat, and food portions are weighed and recorded.</li>
+                        <li>Accurate but labor-intensive method and not practical for large-scale nutrition surveys.</li>
+                    </ul>
+                    
+
+                    <div class="image-container">
+                        <img src="../figures/" alt="" onclick="openModal(this)">
+                        <div class="caption"></div>
+                      </div>
+                      
+                      <div id="myModal" class="modal">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <img class="modal-content" id="modalImage">
+                        <div id="caption" class="caption"></div>
+                      </div>
+
+                    <p><strong>Estimated Food Diary</strong></p>
+                    <ul>
+                        <li>Details of food and drink intake are recorded by the individual at the time of consumption.</li>
+                        <li>Requires medium to high literacy subjects and is useful for individual assessments.</li>
+                    </ul>
+                    
+                    <h4>Prospective Methods: Duplicate Diets</h4>
+                    <ul>
+                        <li>Identical portions of all food and drink consumed throughout the day are retained and weighed.</li>
+                        <li>Highly accurate but expensive and time-consuming.</li>
+                    </ul>
+                    
+                    <h4>Prospective Methods: Observed Food Consumption</h4>
+                    <p>Involves observation of dietary intake and is not used in clinical practice as much as in research.</p>
+                    
+                    <h4>Retrospective Methods: 24-hour Dietary Recall</h4>
+                    <ul>
+                        <li>A trained worker interviews an individual asking them to recall their food and drink consumption in the last 24 hours.</li>
+                        <li>Quick, relatively inexpensive, easier for the subject, and therefore more applicable to community nutrition surveys.</li>
+                        <li>Recall bias is possible, as with all retrospective methods.</li>
+                    </ul>
+                    
+                    <p><strong>24-Hour Recall Questions (sample)</strong></p>
+
+                                      <div class="image-container">
+                    <img src="../figures/" alt="" onclick="openModal(this)">
+                    <div class="caption"></div>
+                  </div>
+                  
+                  <div id="myModal" class="modal">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <img class="modal-content" id="modalImage">
+                    <div id="caption" class="caption"></div>
+                  </div>
+
+                    <h4>Retrospective Methods: Diet History</h4>
+                    <ul>
+                        <li>This involves a retrospective dietary assessment usually over a longer period of time (e.g., 6 months, 1 year).</li>
+                        <li>Questions are asked about types, amount, and frequency of food intake.</li>
+                        <li>Very useful in assessing diets of infants and children – mothers can provide diet history, especially when diets are relatively consistent.</li>
+                    </ul>
+                    
+                    <h4>Retrospective Methods: Food Frequency Questionnaire</h4>
+                    <ul>
+                        <li>Food Frequency Questionnaires are used to determine dietary patterns by asking individuals the frequency with which specific food items or food groups are consumed over a reference period (e.g., 1 week, 1 month).</li>
+                    </ul>
+                    
+                    <p><strong>24-Hour Recall Questions (sample)</strong></p>
+                                      <div class="image-container">
+                    <img src="../figures/" alt="" onclick="openModal(this)">
+                    <div class="caption"></div>
+                  </div>
+                  
+                  <div id="myModal" class="modal">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <img class="modal-content" id="modalImage">
+                    <div id="caption" class="caption"></div>
+                  </div>
+                  
+                </div>
+              </section>
+
+              <section id='heading-4-2'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-2'>Clinical Assessment</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <div>
+                        <p><strong>What is it?</strong></p>
+                        <p>
+                          Physical examination and identification of symptoms associated with malnutrition and vitamin deficiencies. It's the simplest and most practical assessment method.
+                        </p>
+                      </div>
+                      
+                      <div>
+                        <h4>What to Look For – Signs of Malnutrition</h4>
+                        <p><strong>Bilateral Pitting Edema</strong></p>
+                        <p>
+                          It is a sign of severe acute malnutrition regardless of weight or mid-upper arm circumference (MUAC). Thumb pressure is applied on top of both feet for 3 seconds. If there is a pit (indentation) in the foot when lifting the thumb, pitting edema is present. The pit can remain in both feet for several seconds. For positive assessment, edema must be present in both feet.
+                        </p>
+                      </div>
+                      
+                      <div class="image-container">
+                        <img src="../figures/" alt="" onclick="openModal(this)">
+                        <div class="caption"></div>
+                      </div>
+                      
+                      <div id="myModal" class="modal">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <img class="modal-content" id="modalImage">
+                        <div id="caption" class="caption"></div>
+                      </div>
+
+
+                      <div class="image-container">
+                        <img src="../figures/" alt="" onclick="openModal(this)">
+                        <div class="caption"></div>
+                      </div>
+                      
+                      <div id="myModal" class="modal">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <img class="modal-content" id="modalImage">
+                        <div id="caption" class="caption"></div>
+                      </div>
+
+                      <h4>Physical Examination</h4>
+                      <p><strong>What is it?</strong></p>
+                      <p>
+                        Physical examination is the next step in nutritional assessment. The main objective of the physical examination is to identify the presence of signs and symptoms suggestive of nutrient deficiencies or toxicities.
+                      </p>
+                      <p>
+                        Clinical symptoms and signs of malnutrition are easily recognizable, but, unfortunately, are present only in advanced stages of nutritional depletion. Physical examination should proceed in a systematic fashion and should include:
+                      </p>
+                      <ol>
+                        <li>Assessment of muscle mass and subcutaneous fat stores.</li>
+                        <li>Thorough examination of skin, hair, nails, oral cavity, teeth, and bones.</li>
+                        <li>Inspection and evaluation for signs and symptoms of vitamin and mineral deficits.</li>
+                      </ol>
+                    </div>
+                    
+                    <div>
+                      <h4>Clinical Signs and Symptoms of Protein-Energy Malnutrition (PEM)</h4>
+                      <p><strong>Clinical signs and symptoms of protein-energy malnutrition (PEM) include the following:</strong></p>
+                      <ul>
+                        <li>Poor weight gain.</li>
+                        <li>Slowing of linear growth.</li>
+                        <li>Behavioral changes - Irritability, apathy, decreased social responsiveness, anxiety, and attention deficits.</li>
+                      </ul>
+                    
+                      <div>
+                        <h4>Deficiencies of Micronutrients</h4>
+                        <ul>
+                          <li><strong>Iron:</strong> Fatigue, anemia, decreased cognitive function, headache, glossitis, and nail changes.</li>
+                          <li><strong>Iodine:</strong> Goiter, developmental delay, and mental retardation.</li>
+                          <li><strong>Vitamin D:</strong> Poor growth, rickets, and hypocalcemia.</li>
+                          <li><strong>Vitamin A:</strong> Night blindness, xerophthalmia, poor growth, and hair changes.</li>
+                          <li><strong>Folate:</strong> Glossitis, anemia (megaloblastic), and neural tube defects (in fetuses of women without folate supplementation).</li>
+                          <li><strong>Zinc:</strong> Anemia, dwarfism, hepatosplenomegaly, hyperpigmentation and hypogonadism, acrodermatitis enteropathica, diminished immune response, poor wound healing.</li>
+                        </ul>
+                      </div>
+                      
+                      <div>
+                        <h4>Physical Signs</h4>
+                        <p><strong>Physical findings that are associated with PEM include the following:</strong></p>
+                        <ul>
+                          <li>Decreased subcutaneous tissue: Areas that are most affected are the legs, arms, buttocks, and face.</li>
+                          <li>Edema: Areas that are most affected are the distal extremities and anasarca (generalized edema).</li>
+                        </ul>
+                        <p><strong>Oral changes:</strong></p>
+                        <ul>
+                          <li>Cheilosis</li>
+                          <li>Angular stomatitis</li>
+                          <li>Papillar atrophy</li>
+                        </ul>
+                        <p><strong>Abdominal findings:</strong></p>
+                        <ul>
+                          <li>Abdominal distension secondary to poor abdominal musculature</li>
+                          <li>Hepatomegaly secondary to fatty infiltration</li>
+                        </ul>
+                        <p><strong>Skin changes:</strong></p>
+                        <ul>
+                          <li>Dry peeling skin with raw exposed areas</li>
+                          <li>Hyperpigmented plaques over areas of trauma</li>
+                        </ul>
+                        <p><strong>Nail changes:</strong> Nails become fissured or ridged.</p>
+                        <p><strong>Hair changes:</strong> Hair is thin, sparse, brittle, easily pulled out, and turns a dull brown or reddish color.</p>
+                      </div>
+                      
+                </div>
+              </section>
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Anthropometry Measurements</a>
+          </h2>
+        </header>
+        <div class='body'>
+    
+            <p>“Anthropometry is the single most universally applicable, inexpensive, and non-invasive method available to assess the size, proportions, and composition of the human body.”</p>
+            <ul>
+              <li>Anthropometry measure is a technique developed in the 19th century by an anthropologist.</li>
+              <li>It is the objective measurement of body muscle and fats.</li>
+              <li>It is an inexpensive and non-invasive method available to assess the size, population, and composition of the human body.</li>
+              <li>It is used to compare growth in the young and to assess weight loss or gain in older people.</li>
+            </ul>
+          </div>
+          
+          
+            <p><strong>Uses of Anthropometry</strong></p>
+            <p>It is useful for the assessment of:</p>
+            <ul>
+              <li><strong>Growth failure from Undernutrition:</strong></li>
+              <li><strong>Wasting:</strong> Wasting refers to a weight-for-height below minus 2 standard deviations from the WHO Child Growth Standards or a below normal body mass index (in adults) and is a consequence of acute malnutrition.</li>
+              <li><strong>Stunting:</strong> Stunting refers to a height-for-age below minus 2 standard deviations from the WHO Child Growth Standards and is a consequence of chronic malnutrition due to inadequate intake or repeated infections.</li>
+              <li><strong>Underweight:</strong> Underweight is a weight-for-age below minus 2 standard deviations from the WHO Child Growth Standards. This can result from either acute or chronic malnutrition.</li>
+              <li><strong>Overweight:</strong></li>
+            </ul>
+          
+            <h4>Anthropometric Measures</h4>
+            <p>The anthropometric status of an individual can be assessed using the following information and measurements:</p>
+            
+            <h5>Essential Information</h5>
+            <ul>
+              <li><strong>Age:</strong> All measurements are compared to an age-specific reference standard.</li>
+              <li><strong>Sex:</strong> Gender is essential as boys and girls have different growth patterns.</li>
+            </ul>
+            
+            <h5>Measurements</h5>
+            <ul>
+              <li><strong>Weight:</strong> The individual's body weight is measured.</li>
+              <li><strong>Length/Height:</strong> Depending on age, either length (for infants) or height (for older individuals) is measured.</li>
+              <li><strong>Mid-Upper Arm Circumference (MUAC):</strong> Measurement of the circumference of the upper arm; useful for assessing malnutrition.</li>
+              <li><strong>Head Circumference:</strong> Measurement around the head, often used for assessing growth in infants and children.</li>
+              <li><strong>Triceps Skinfold Thickness/Subscapular Skinfold Thickness:</strong> Measured to assess subcutaneous tissue thickness, body composition, and body fat. Useful for assessing obesity in children and body composition in adults.</li>
+            </ul>
+            
+            <h4>Specific Anthropometry Measurements</h4>
+            <ul>
+              <li><strong>Height/Length:</strong> Measured to assess an individual's vertical growth.</li>
+              <li><strong>Weight:</strong> Measured to determine an individual's body mass.</li>
+              <li><strong>Skinfold Thickness:</strong> Measures subcutaneous tissue thickness, reflecting body composition and fat content.</li>
+              <li><strong>Occipitofrontal Circumference:</strong> Measurement around the head, often used in infants.</li>
+              <li><strong>Mid-Arm Circumference (MAC):</strong> Measured midway between the shoulder and elbow to assess arm muscle and fat distribution.</li>
+              <li><strong>Body Mass Index (BMI):</strong> Calculated as weight divided by height squared; used to assess overall body composition.</li>
+            </ul>
+            
+            <h4>WEIGHT MEASUREMENTS</h4>
+            <p>Various types of devices are available for weight measurements, including beam balance, spring balance, platform balance, and electronic devices. It's important to standardize any device used before measuring to minimize errors.</p>
+            
+            <p>When measuring infants, they should be weighed naked if possible, using the same instrument. A bassinet scale is more suitable for infants. Older children can be weighed using a beam balance or bathroom scale with light clothing and arms hanging loosely.</p>
+            
+            <p>Recommended features for scales used to weigh infants and children:</p>
+            <ul>
+              <li>Solidly built and durable</li>
+              <li>Electronic (digital reading)</li>
+              <li>Precision of 0.1 kg (100 g)</li>
+              <li>Allows tared weighing</li>
+              <li>If the child can't stand, the mother holds the child; if able to stand, the child stands on the scale</li>
+            </ul>
+            
+            <p>Scales with greater precision, down to 0.005 kg (5 g), are more accurate, particularly for newborns weighing less than 2.5 kg.</p>
+            
+            <h5>Types of Scales:</h5>
+            <ul>
+              <li><strong>Spring Salter Scale:</strong> Typically used in community or emergency settings for small children, weighing up to 25 kg maximum.</li>
+              <li><strong>Bathroom Scale:</strong> Suitable for older children who can stand independently.</li>
+              <li><strong>Infant Weighing Scale:</strong> Appropriate for weighing infants lying down or sitting, within the scale's maximum weight limit.</li>
+            </ul>
+            
+            <div class="image-container">
+              <img src="../figures/" alt="" onclick="openModal(this)">
+              <div class="caption"></div>
+            </div>
+            
+            <div id="myModal" class="modal">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <img class="modal-content" id="modalImage">
+              <div id="caption" class="caption"></div>
+            </div>
+
+
+            <h5>Steps for Weighing Children:</h5>
+            <ol>
+              <li>Remove all clothing and diapers in children under 2 years (24 months). For older children, remove all clothing except underclothes. If it's cold or culturally unacceptable, remove as much extra clothing as possible.</li>
+              <li>Calm the child if they are agitated.</li>
+              <li>Place the scale on a hard, flat, and unobstructed surface.</li>
+              <li>Check and set the scale to zero.</li>
+              <li>For children under 2 years, place the child supine (lying face upwards) on the weighing scale while remaining next to the child at all times.</li>
+              <li>Older children should stand at the center of the scale without holding onto any object or person.</li>
+              <li>Read and record the measurement to the nearest 100 grams.</li>
+            </ol>
+            
+            <h4>MEASUREMENT OF LENGTH AND HEIGHT</h4>
+            <p>Length measurements are taken in children under 2 years using an infantometer (infant length board), while height measurements are taken in children above 2 years using a standiometer.</p>
+            
+            <p>For measuring length, the infant's top of the head is placed against a fixed headboard, knees are placed flat against the board, and the footboard is moved to the sole with the help of another assistant. For height measurements, the child stands without shoes, ensuring that the back, head, buttocks, shoulders, and heels touch the standiometer.</p>
+            
+            <p>Height or length measurements are used to determine:</p>
+            <ul>
+              <li>Length/height-for-age in children</li>
+              <li>Weight-for-length/height in children</li>
+              <li>Body Mass Index (BMI) in adults</li>
+            </ul>
+            
+            <p>There are two ways to measure:</p>
+            <ul>
+              <li>Length is measured lying down and is usually done in children less than 24 months.</li>
+              <li>Height is measured standing upright and is done in children more than 24 months. However, in circumstances where a child/adult cannot stand, measure length.</li>
+            </ul>
+            
+            <h5>Measuring Recumbent Length:</h5>
+            <p>An infantometer, also known as a length board, is used for measuring length.</p>
+            
+            <h5>Four Things to Remember:</h5>
+            <ol>
+              <li>Place the length board on a flat, stable surface, like a table (but far from the edge) or on the floor.</li>
+              <li>Calm down the child if they are agitated.</li>
+              <li>Remove any headwear, footwear, and heavy clothing.</li>
+              <li>Record length in centimeters to the nearest 0.1 cm.</li>
+            </ol>
+            </p>
+            
+            <div class="image-container">
+              <img src="../figures/" alt="" onclick="openModal(this)">
+              <div class="caption"></div>
+            </div>
+            
+            <div id="myModal" class="modal">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <img class="modal-content" id="modalImage">
+              <div id="caption" class="caption"></div>
+            </div>
+
+            <div class="image-container">
+              <img src="../figures/" alt="" onclick="openModal(this)">
+              <div class="caption"></div>
+            </div>
+            
+            <div id="myModal" class="modal">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <img class="modal-content" id="modalImage">
+              <div id="caption" class="caption"></div>
+            </div>
+
+            
+            <h5>Measuring Height</h5>
+            <p>A height board, sometimes called a stadiometer, is used to measure height. It should be mounted at a right angle between a level floor and against a straight, vertical surface such as a wall or pillar. Height is recorded to the nearest 0.1 cm.</p>
+            
+
+            <h4>MUAC (Mid-Upper Arm Circumference)</h4>
+            <p><strong>What is it?</strong></p>
+            <p>Mid-upper arm circumference (MUAC) is the circumference of the left upper arm and measures the muscle mass of the upper arm. It is used to assess the nutritional status of both children and adults.</p>
+            
+            <p><strong>Measuring Recumbent Length (As per MUAC tape released by UNICEF in 2009)</strong></p>
+            <ul>
+                <li><strong>Moderate:</strong> 11.5 – 12.5 cm</li>
+                <li><strong>Severe:</strong> Less than 11.5 cm</li>
+            </ul>
+
+            <div class="image-container">
+              <img src="../figures/" alt="" onclick="openModal(this)">
+              <div class="caption"></div>
+            </div>
+            
+            <div id="myModal" class="modal">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <img class="modal-content" id="modalImage">
+              <div id="caption" class="caption"></div>
+            </div>
+            
+            <h4>Method for Measuring MUAC</h4>
+
+            <h5>Step 1: Find the Midpoint</h5>
+            <ul>
+                <li>Use a string and measuring tape.</li>
+                <li>Locate the midpoint of the left upper arm, which is between the shoulder and the tip of the elbow (specifically, between the olecranon process and the acromion).</li>
+                <li>Ensure that the arm is bent at the elbow at a right angle.</li>
+            </ul>
+            
+            <h5>Step 2: Measure MUAC</h5>
+            <ul>
+                <li>Take a flexible measuring tape or a specialized MUAC tape.</li>
+                <li>Place the tape firmly at the midpoint you found.</li>
+                <li>Measure the MUAC to the closest 0.1 cm.</li>
+                <li>The person being measured should have their arm hanging down and resting at the side of their body.</li>
+            </ul>
+            
+            <p><strong>Source:</strong> UNICEF. Technical Bulletin no.13. Revision 2. Mid Upper Arm Circumference Measuring Tapes. <a href="http://www.unicef.org/supply/files/Mid_Upper_Arm_Circumference_Measuring_Tapes.pdf">Link to Source</a></p>
+            
+            <div class="image-container">
+              <img src="../figures/" alt="" onclick="openModal(this)">
+              <div class="caption"></div>
+            </div>
+            
+            <div id="myModal" class="modal">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <img class="modal-content" id="modalImage">
+              <div id="caption" class="caption"></div>
+            </div>
+
+            <h4>HEAD CIRCUMFERENCE</h4>
+            <p><strong>What is it?</strong></p>
+            <p>Head circumference is usually measured in children less than 2 years to assess their growth, which is reflective of their nutritional status. It is measured around the fullest head circumference.</p>
+            
+            <p><strong>Measuring Head Circumference:</strong></p>
+            <ol>
+                <li>Ensure the child is calm. Remove any headgear or hair accessories.</li>
+                <li>Place the measuring tape just above the eyebrows and at the back of the head, positioned over the fullest prominence of the skull.</li>
+                <li>Make sure the tape is firmly placed but not too tight.</li>
+                <li>Record the circumference of the head in centimeters, rounding to the nearest 1 mm.</li>
+            </ol>
+            
+            <div class="image-container">
+              <img src="../figures/" alt="" onclick="openModal(this)">
+              <div class="caption"></div>
+            </div>
+            
+            <div id="myModal" class="modal">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <img class="modal-content" id="modalImage">
+              <div id="caption" class="caption"></div>
+            </div>
+
+
+            <p><strong>SOURCE:</strong> The International Fetal and Newborn Growth Consortium. Intergrowth 21st - International Fetal and Newborn Growth Standards for the 21st Century. Anthropometry Handbook. Oxford University. 2012</p>
+            
+            <h4>ANTHROPOMETRY MEASUREMENTS</h4>
+
+            <p>Anthropometry assessment of growth and development involves several steps:</p>
+            
+            <ol>
+              <li><strong>Accurate Measurements:</strong> These include measuring weight, height, and Mid-Upper Arm Circumference (MAC).</li>
+              <li><strong>Plotting on Growth Charts:</strong> The data collected is plotted on growth charts, which are based on reference curves from organizations like CDC/NCHS and WHO.</li>
+              <li><strong>Classification of Nutritional Status:</strong> Nutritional status is classified using various indicators, such as Z-scores, percentiles, and BMI (Body Mass Index).</li>
+            </ol>
+            
+            <h5>Calculating Standard Measurements:</h5>
+            
+            <p>In clinical practice, you can estimate weight and height based on age using the following formulas:</p>
+            
+            <ul>
+              <li><strong>Weight (in kg):</strong></li>
+              <ul>
+                <li>1-12 months: (Age in months + 9) / 2</li>
+                <li>1-6 years: (Age in years × 2) + 8</li>
+                <li>7-12 years: {[(Age in years × 7) - 5] / 2}</li>
+              </ul>
+              <li><strong>Height (in cm):</strong></li>
+              <ul>
+                <li>Birth: 50cm</li>
+                <li>12 months: 75cm</li>
+                <li>2 – 12 years: (Age in years) × 6 + 77</li>
+              </ul>
+            </ul>
+            
+            <p><strong>Mid-Upper Arm Circumference (MAC):</strong></p>
+            
+            <p>MAC is measured to assess muscle mass. The following guidelines can help interpret the measurements:</p>
+            <ul>
+              <li>> 13.5cm: Normal</li>
+              <li>12.5-13.5cm: Mild/Moderate wasting</li>
+              <li>< 12.5cm: Severe wasting</li>
+            </ul>
+
+            <div class="image-container">
+              <img src="../figures/" alt="" onclick="openModal(this)">
+              <div class="caption"></div>
+            </div>
+            
+            <div id="myModal" class="modal">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <img class="modal-content" id="modalImage">
+              <div id="caption" class="caption"></div>
+            </div>
+
+
+            <div class="image-container">
+              <img src="../figures/" alt="" onclick="openModal(this)">
+              <div class="caption"></div>
+            </div>
+            
+            <div id="myModal" class="modal">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <img class="modal-content" id="modalImage">
+              <div id="caption" class="caption"></div>
+            </div>
+
+
+            <h4>Systems to Classify Anthropometric Data</h4>
+
+            <p>There are three different systems by which a child or a group of children can be compared to the reference population:</p>
+            
+            <ol>
+              <li><strong>Z-scores (Standard Deviation Scores):</strong> Z-scores are a statistical measure that helps compare an individual's measurement to the mean (average) and standard deviation of a reference population.</li>
+              <li><strong>Percentiles:</strong> Percentiles represent the relative rank of an individual's measurement compared to a reference population. For example, a child in the 75th percentile for height is taller than 75% of the reference population.</li>
+              <li><strong>Percent of Median:</strong> This system calculates a child's measurement as a percentage of the median measurement for the reference population.</li>
+            </ol>
+            
+            <p>For population-based assessments, including surveys and nutritional surveillance, the z-score is widely recognized as the best system for the analysis and presentation of anthropometric data. This is because it offers several advantages compared to other methods.</p>
+            
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Interpreting Growth Indicators</a>
+          </h2>
+        </header>
+        <div class='body'>
+          <p>Interpretation of growth indicators is done with the help of specific charts. The growth charts discussed in this course are for children and have been derived from the WHO Multicentre Growth Reference Study.</p>
+          
+          <p>The specific charts used will depend on the child’s age and gender. They help to identify growth patterns and growth problems in a child.</p>
+          
+          <p><strong>Note:</strong> The growth charts for infants are for healthy, full-term infants. These do not apply to preterm infants.</p>
+          
+          <p><strong>INTERPRETING GROWTH</strong></p>
+          <ul>
+            <li>Serial determinations of weight and height are more sensitive in the evaluation of nutritional and growth status than single weight and height records.</li>
+            <li>Weight gain and growth velocity are helpful in establishing a patient’s previous growth pattern and interpreting its change due to disease or medical/nutritional interventions.</li>
+          </ul>
+                
+          <div class="image-container">
+            <img src="../figures/" alt="" onclick="openModal(this)">
+            <div class="caption"></div>
+          </div>
+          
+          <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="caption" class="caption"></div>
+          </div>
+          
+          <h4>Chart Interpretation</h4>
+
+          <p>This chart interprets length-for-age for boys from birth to 2 years.</p>
+          
+          <ul>
+            <li>The curved lines represent reference lines.</li>
+            <li>Age is plotted on the x-axis and length on the y-axis.</li>
+            <li>The line labeled '0' represents the average or the median while the other curved lines are z-score lines which represent deviation from the average.</li>
+            <li>Z-score lines are numbered 2, 3 or -2, -3 (depending on direction).</li>
+            <li>Sometimes z-score lines will be numbered 1, 2, 3 (positively and negatively).</li>
+          </ul>
+          
+
+          <div class="image-container">
+            <img src="../figures/" alt="" onclick="openModal(this)">
+            <div class="caption"></div>
+          </div>
+          
+          <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="caption" class="caption"></div>
+          </div>
+
+          <h4>Chart Interpretation</h4>
+
+          <p>This chart interprets weight-for-age for boys from birth to 6 months.</p>
+          
+          <ul>
+            <li>Age (in weeks or months) is on the x-axis; weight in kilograms is on the y-axis.</li>
+            <li>A point has been plotted for an infant boy who is 6 weeks old and weighs 5 kg.</li>
+            <li>Curved lines on the graph are reference lines that help interpret the plotted points and trends.</li>
+          </ul>
+          
+
+          <h4>Growth Charts</h4>
+
+          <p>Growth charts provide age-related standards for weight, height, and/or growth velocity.</p>
+          
+          <p>WHO growth charts are based on the data from the Multicentre Growth Reference Study, a community-based, multi-country project involving more than 8,000 children from Brazil, Ghana, India, Norway, Oman, and the USA.</p>
+          
+          <div class="image-container">
+            <img src="../figures/" alt="" onclick="openModal(this)">
+            <div class="caption"></div>
+          </div>
+          
+          <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="caption" class="caption"></div>
+          </div>
+
+          <div class="image-container">
+            <img src="../figures/" alt="" onclick="openModal(this)">
+            <div class="caption"></div>
+          </div>
+          
+          <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="caption" class="caption"></div>
+          </div>
+
+          <h4>ANTHROPOMETRIC INDICES</h4>
+
+          <p>An isolated value of weight has no meaning except it is related to the child's age and height.</p>
+          
+          <p>Anthropometric indices are combinations of measurements.</p>
+          
+          <p>Indices utilized in nutritional assessment to classify the nutritional status of a child include:</p>
+          <ul>
+              <li>Weight for height (Wasting)</li>
+              <li>Height for age (Stunting)</li>
+              <li>Weight for age (Underweight)</li>
+              <li>Z score</li>
+              <li>Percentile/Percent median</li>
+          </ul>
+          
+          
+        </div>
+      </section>
+
+      <section id='header-6'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-6'>Classification of Nutritional Status</a>
+          </h2>
+        </header>
+        <div class='body'>
+          <ul>
+              <li><strong>Stunted:</strong> Stunted growth refers to low height-for-age, when a child is short for his/her age but not necessarily thin. It reflects chronic malnutrition, which carries long-term developmental risks.</li>
+              <li><strong>Under-weight:</strong> Under-weight refers to low weight-for-age, when a child can be either thin or short for his/her age. This reflects a combination of chronic and acute malnutrition.</li>
+              <li><strong>Wasted:</strong> Wasted refers to low weight-for-height where a child is thin for his/her height but not necessarily short. It reflects acute malnutrition, which carries an immediate increased risk of morbidity and mortality.</li>
+              <li><strong>Z score:</strong> Z score is used when statistical comparison is to be done as it enables children of different sexes and ages to be compared. Normal ranges from -2 to +2.</li>
+              <li><strong>Percentile:</strong> 0 represents the 50th percentile, +2 represents the 98th percentile.</li>
+          </ul>
+          
+          <div class="image-container">
+            <img src="../figures/" alt="" onclick="openModal(this)">
+            <div class="caption"></div>
+          </div>
+          
+          <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="caption" class="caption"></div>
+          </div>
+
+
+          <div class="image-container">
+            <img src="../figures/" alt="" onclick="openModal(this)">
+            <div class="caption"></div>
+          </div>
+          
+          <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="caption" class="caption"></div>
+
+            <p>The points plotted on a child’s growth chart are read in reference to the z-score lines to assess whether there is a growth problem. The above table defines growth problems in terms of z-score.</p>
+
+          </div>
+        </div>
+      </section>
+
+      <section id='header-7'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-7'>Laboratory Investigations </a>
+          </h2>
+        </header>
+        <div class='body'>
+          <h4>Blood Tests</h4>
+          <p>The following tests can be performed to assess nutritional status of children and adults:</p>
+          <ul>
+              <li>Hemoglobin Levels: Most important index of the overall state of nutrition and an indicator of anemia (most commonly iron deficiency)</li>
+              <li>Serum albumin</li>
+              <li>Vitamin levels</li>
+              <ul>
+                  <li>Vitamin B6</li>
+                  <li>Folic Acid</li>
+                  <li>Vitamin B12</li>
+                  <li>Vitamin A (Serum retinol, Serum retinol binding protein)</li>
+                  <li>Vitamin D (25-hydroxyvitamin D)</li>
+              </ul>
+              <li>Trace Elements</li>
+              <ul>
+                  <li>Iron (Serum Ferritin, Serum Transferrin)</li>
+                  <li>Iodine</li>
+              </ul>
+          </ul>
+          
+          <h4>Urine Tests</h4>
+          <p>Urine examination for albumin and sugar are also part of detailed nutritional assessments. Urine can also be examined for levels of zinc and iodine.</p>
+          
+          <h4>Other Tests</h4>
+          <p>Other examples of tests that can be performed to assess nutrient and mineral levels are hair zinc concentration and hair and nail content of selenium.</p>
+                     
+        </div>
+      </section>
+
+      <section id='header-8'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-8'>Conclusion </a>
+          </h2>
+        </header>
+        <div class='body'>
+          <p>The nutritional assessment should be preceded by nutritional screening, the purpose of which is to identify children at risk of nutrition inadequacy, to provide anticipatory guidance, and to select identified children for a full nutritional assessment.</p>
+          <p>The prevalence of acute and chronic malnutrition is still substantial, especially in children with an underlying disease.</p>
+          <p>In order to decrease the prevalence of malnutrition, it is important to identify children at risk at an early stage so that appropriate nutritional intervention can be initiated.</p>
+                    
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+      <section id='heading-1-2-1'>
+        <header>
+          <h4>
+
+            <a aria-hidden href='#heading-1-2-1'></a>
+          </h4>
+        </header>
+        <div class='body'>
+            <p></p>
+            <p></p>
+
+        </div>
+      </section>
+
+      </section>
+
+      <div class="contact">
+        <hr style="margin: 3rem 0;">
+
+      
+        <!-- <p>Send your comments, corrections, explanations/clarifications and requests/suggestions to our <a href="">WhatsApp group</a>.</p> -->
+      </div>
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p></p>
+          
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+</body>
+</html>
+ 
