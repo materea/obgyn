@@ -901,7 +901,7 @@ footer {
   margin: 0 auto;
   background-color: var(--color-darker);
   text-align: center;
-  padding: 5px;
+  padding: 5px 0;
 }
 
 footer p, footer a{
