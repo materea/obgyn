@@ -906,7 +906,6 @@ footer {
 
 footer p, footer a{
   color: var(--color-green);
-  border-bottom: 1px dotted var(--color-green);
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
