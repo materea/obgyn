@@ -898,26 +898,40 @@ blockquote {
 
 footer {
   width: 100%;
-  margin: 0;
-  padding: 10px 0;
-  text-align: center;
+  margin: 0 auto;
   background-color: var(--color-darker);
+  text-align: center;
+  padding: 5px;
 }
 
+footer p, footer a{
+  color: var(--color-green);
+  border-bottom: 1px dotted var(--color-green);
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
 
 .footer-container {
   margin: 0 auto;
   max-width: 60rem;
+  text-align: center;
+}
+
+
+.footer-beta p{
+  color: var(--color-ash);
+  border-bottom: none;
+  margin: 0;
+padding: 0;
 }
 
 footer p, footer span{
-  font-size: 0.85em;
-  font-weight: 900;
+  font-size: 0.65rem;
 }
 
-footer p{
-  color: var(--color-darker);
-}
+
+
 
 /*                        buttons          */
 .flat-btn{
@@ -1401,4 +1415,43 @@ figcaption {
   background-color: var(--color-primary);
   margin: 0;
   padding: 0;
+}
+
+
+
+/* comment  */
+.comment {
+  font-size: 0.6rem;
+  color: var(--color-ash);
+  text-align: center;
+}
+
+
+/* disclaimer popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 3000;
+  font-family: var(--font-family-primary);
+}
+
+.popup p {
+  color: var(--color-ash);
+  padding: 20px;
+}
+
+.popup-close {
+  background-color: var(--color-darker);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-family: var(--font-family-primary);
 }
