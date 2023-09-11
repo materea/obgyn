@@ -1456,3 +1456,27 @@ figcaption {
   border-radius: 7px;
   font-family: var(--font-family-primary);
 }
+
+
+/* more-resources */
+.more-resources-card {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  display: inline-block;
+  display: flex;
+  align-items: baseline;
+  width: 70%;
+  font-size: 0.8rem;
+  margin: 1rem;
+}
+
+
+.more-resources-card a{
+  text-decoration: none;
+  color: var(--color-darker);
+}
+.more-resources-card .card-icon {
+  margin-right: 1rem;
+}
