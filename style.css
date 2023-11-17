@@ -1421,7 +1421,8 @@ figcaption {
 #content {
   display: none;
   position: absolute;
-  top: 50%; /*to position below the search box */
+  width: 60%;
+  top: 47%; /*to position below the search box */
   left: auto;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -1707,16 +1708,13 @@ body.dark-mode {
   border: none;
 }
 
-#content p {
+.dark-mode #content p {
   color: var(--color-secondary);
 }
 
-#content li {
-  display: block;
-  margin-bottom: 10px;
-}
 
-#content a {
+
+.dark-mode #content a {
   color: var(--color-darker-dark);
   text-decoration: none;
   font-weight: normal;
