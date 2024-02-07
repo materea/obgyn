@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Obesity in O&G Practice</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+    <h1>Obesity in O&G Practice</h1>
+  
+    <!-- <div class="author-flex">
+      <div class="author-img">
+        <img  src="/contributors/vt1.jpeg" alt="">
+      </div>
+      <div>
+        <h2 class="name">Compiled by Victortayo</h2>
+        <p class="updated">last updated, Nov 2022</p>
+      </div>
+    </div> -->
+    <article class="notes">
+      <a id='top'></a>
+  <article>
+
+        <!-- LEARNING OBJECTIVES CONTAINER  -->
+            <div class="custom-card" id="custom-card-1">
+              <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+              <div class="title"> 
+                <h2>What You Will Learn</h2>
+              </div>
+              <div class="line">
+                <p>After reading this note, you should be able to...</p>
+              </div>
+              <div class="content">
+                <ul>
+                  <li><i>This content is not available yet.</i></li>
+              </ul>
+              </div>
+              <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+            </div>
+          
+        <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+      
+      
+        <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+          <div class="outline2">
+      
+            <input type="radio" name="control-2" id="show-2">
+            <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+            <input type="radio" name="control-2" id="hide-2">
+            <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+            <div class="contents">
+              <div class="icon-box">
+                <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                <img src="../images/icons/book.png" alt="Icon" class="icon">
+              </div>
+              <div id="tableOfContents">
+                  <ol id="tocList"></ol>
+              </div>
+            </div>
+           <div>
+      
+      <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+
+      <br>
+
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Definition</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ol>
+                <li>Height and weight indices</li>
+                <ul>
+                    <li>Height and weight tables</li>
+                    <li>Ponderal index— square of height divided by cube root of weight</li>
+                    <li>Body mass index (BMI)/Quetelet index= body weight in kg divided by square of the height in meter. Normal range is 18.5—24.9 kg/m2.</li>
+                    <li>These do not consider lean body mass.</li>
+                </ul>
+                <li>Subscapular and triceps skin fold thickness greater than the standard by 20% or more.</li>
+                <li>Empirical definitions</li>
+                <ul>
+                    <li>Weight greater than 90kg in pregnancy regardless of pre-pregnancy weight and height</li>
+                    <li>Morbid obesity- weight greater than 115 kg</li>
+                </ul>
+            </ol>
+        </div>
+
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Obstetric Complications</a>
+          </h2>
+        </header>
+        <div class='body'>
+           <p>Edema</p>
+           <p>Hypertensive disease of pregnancy</p>
+           <p>DM</p>
+           <p>Difficulty in abdominal palpation</p>
+           <p>Difficulty in auscultation of the fetal heart</p>
+           <p>Macrosomia- shoulder dystocia, traumatic delivery, and birth asphyxia</p>
+           <p>Post-term pregnancy</p>
+           <p>Increased indications for induction of labor due to prolonged pregnancy or medical disorders.</p>
+
+           <h4><span class="special-text-4">Potential technical problems in managing obese mothers</span></h4>
+            <ul>
+                <li>Difficult to use ultrasonography accurately to date pregnancy or detect fetal anomalies</li>
+                <li>Large cuffs required to measure blood pressure accurately</li>
+                <li>Woman may have reduced awareness of fetal movements       </li>
+                <li>Prolonged labor due to macrosomia, uterine inertia</li>
+                <li>Perinatal mortality and morbidity</li>
+                <li>Higher risk of cesarean deliveries</li>
+                <li>Failure of lactation</li>
+                <li>Thromboembolism</li>
+                <li>Urinary tract infection</li>
+                <li>Postpartum hemorrhage</li>
+                <li>Wound complications- wound sepsis, wound dehiscence, burst abdomen    </li>
+                <li>External electronic fetal monitoring can be problematic</li>
+                <li>Surgery is technically difficult, requiring more assistants or larger operating table</li>
+                <li>Regional and general anesthesia can be challenging</li>
+                <li>Wound care can be compromised in the event of cesarean section. </li>
+            </ul>
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Classification using BMI</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li>Overweight = 25—29.9 kg/m2</li>
+                <li>Class I = 30—34.9 </li>
+                <li>Class II = 35—39.9 </li>
+                <li>Class III = 40 or more</li>
+            </ul>
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>The Effect of Obesity. </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>Effects span the female reproductive career i.e. from menarche to menopause.</p>
+            <p>There is a positive correlation between body mass index (BMI) and increased rate of hirsuitism, cycle disturbance, and infertility.</p>
+            <p>These effects include—</p>
+            <ul>
+                <li>Hirsutism </li>
+                <li>Amenorrhoea </li>
+                <li>Menstrual irregularities </li>
+                <li>Anovulation </li>
+                <li>Infertility </li>
+                <li>Miscarriages </li>
+                <li>Post-menopausal carcinomas </li>
+            </ul>
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Childhood obesity </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>It is associated with </p>
+            <ul>
+                <li>Early onset of puberty </li>
+                <li>Menstrual irregularities during adolescence and </li>
+                <li>Polycystic ovary syndrome </li>
+            </ul>
+        </div>
+      </section>
+
+      <section id='header-6'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-6'>Miscarriages </a>
+          </h2>
+        </header>
+        <div class='body'>
+           <p>The impact of body fat distribution on miscarriage rates appears to warrant pre- conceptual advice concerning weight loss. </p>
+           <p>The presence of obesity, and the related hyperinsulinemia is thought to be responsible for early pregnancy loss. </p>
+
+           <h4><span class="special-text-4">Miscarriages </span></h4>
+            <p>The impact of body fat distribution on miscarriage rates appears to warrant pre- conceptual advice concerning weight loss. </p>
+            <p>The presence of obesity, and the related hyperinsulinemia is thought to be responsible for early pregnancy loss. </p>
+        </div>
+      </section>
+
+      <section id='header-7'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-7'>Polycystic ovarian syndrome  </a>
+          </h2>
+        </header>
+        <div class='body'>
+           <p>Polycystic ovary (PCO) syndrome was initially described by Stein and Leventhal in 1935 as a syndrome of</p>
+           <ul>
+            <li>Obesity</li>
+            <li>Hirsuitism</li>
+            <li>Anovulation and infertility, and associated with </li>
+            <li>Enlarged and polycystic ovaries. </li>
+           </ul>
+           <p>PCOS may be an incidental finding on a routine ultrasound scan in a woman of normal weight with regular menstrual cycles. </p>
+           <p>The principal abnormality in women with PCOS is one of anovulation manifested by oligomenorrhea or secondary amenorrhea. </p>
+
+           <section id='heading-7-1'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-7-1'>Diagnostic criteria </a>
+              </h3>
+            </header>
+            <div class='body'>
+               <p>Accepted criteria describe ovarian morphology with more than 10 peripheral cysts in a single plane, sized between 2-8 mm, arranged in an echodense stroma. </p>
+               <p>This sonographic appearance of PCO may occur together, or in isolation with a biochemical imbalance, which classically involves metabolic and hormonal changes. </p>
+
+               <h4><span class="special-text-4">Biochemical indicators of syndrome </span></h4>
+                <p>Concentrations of luteinizing hormone (LH) are elevated in 45-75% of cases in a reported series, and a raised testosterone is seen in 80% of patients. </p>
+            </div>
+           </section>
+
+           <section id='heading-7-2'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-7-2'>Features of Polycystic Ovary Syndrome </a>
+              </h3>
+            </header>
+            <div class='body'>
+               <ul>
+                <li>Polycystic ovaries on ultrasonography </li>
+                <li>Menstrual disturbances (amenorrhea, oligomenorrhea) </li>
+                <li>Acne, acanthosis nigricans, hirsutism </li>
+                <li>Obesity, central fat distribution </li>
+                <li>Infertility </li>
+                <li>Glucose intolerance, diabetes mellitus </li>
+                <li>Increased circulating androgen levels </li>
+                <li>Insulin resistance, increased luteinizing hormone</li>
+               </ul>
+            </div>
+           </section>
+
+           <section id='heading-7-3'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-7-3'>Etiopathogenesis </a>
+              </h3>
+            </header>
+            <div class='body'>
+               <p>The etiology of polycystic ovaries has long remained elusive, and there is increasing evidence that the primary abnormality is excessive ovarian androgen production. </p>
+               <p>Obesity has consistently been shown to increase the prevalence of hirsuitism and anovulation when compared to lean women with PCOS. </p>
+               <p>Hyperinsulinemia due to insulin resistance </p>
+               <p>In obese women, hyperinsulinemia is a secondary disorder, resulting in a decrease in and IGFBP-1 levels SHBG (insulin inhibit their synthesis in the liver), creating an increase in free androgens, which are in turn converted to estrone due to the excessive adipose tissue. </p>
+               <p>Obese women produce more estrogen by extraglandular conversion of androgens than do non-obese subjects and, therefore, have a greater excess circulating estrone over estradiol concentrations than lean women.</p>
+               <p>Secondly, as concentrations of SHBG are much lower in obese women, there is an increased free biologically active fraction of estradiol (SHBG transports androgens and estrogens in the blood and regulate their access to target tissue).</p>
+               <p>Therapeutic weight loss has been found to improve the symptoms and endocrine profile of women with PCOS. </p>
+               <p>Encourage lifestyle modifications </p>
+               <p>Thereafter, consider ovulation induction if patient desires contraception </p>
+               <p>Progestogens may be offered every two months to ensure endometrial shedding in those with oligomenorrhea </p>
+               <p>Consider Mirena and screening for endometrial hyperplasia. </p>
+            </div>
+           </section>
+
+           <section id='heading-7-4'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-7-4'>Laboratory Tests </a>
+              </h3>
+            </header>
+            <div class='body'>
+               <ul>
+                <li>Glucose tolerance </li>
+                <li>Lipid profile </li>
+                <li>Androgens (testosterone, free testosterone) </li>
+                <li>Prolactin and LH </li>
+                <li>FSH and thyroid hormones </li>
+                <li>Ovarian ultrasonography </li>
+               </ul>
+            </div>
+           </section>
+
+        </div>
+      </section>
+
+      <section id='header-8'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-8'>HRT and obesity  </a>
+          </h2>
+        </header>
+        <div class='body'>
+           <p>Breast cancer and endometrial cancer are increased by long term estrogen replacement therapy. The incidence of endometrial carcinoma is increased in women who are obese, nulliparous and infertile. </p>
+           <p>The increased peripheral conversion of androgens to estrogens, and the resultant effect of the unopposed estrogen upon the endometrium is thought to be responsible. </p>
+           <p>The cancer most frequently associated with obesity is that of the endometrium. The risk of endometrial cancer is 2-3 times higher in overweight and obese women. </p>
+           <p>Obesity also adversely affects survival in most studies. </p>
+           <p>With regard to ovarian cancer the evidence is inconsistent. </p>
+           <p>Risks for postmenopausal breast cancer have been identified as obesity, late age at menopause, a family history of breast disease and an early age at menarche. </p>
+           <p>There is increased risk of thrombosis and coronary heart disease in the obese at menopause. </p>
+           <p>Obesity protects against osteoporosis. </p>
+           <p>Obesity can aggravate symptoms of pelvic organ prolapse, stress urinary incontinence and increase the risk of endometrial polyps and symptomatic fibroids. </p>
+        </div>
+      </section>
+
+      <section id='header-9'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-9'>Management  </a>
+          </h2>
+        </header>
+        <div class='body'>
+           <p>Reduce calorie intake to < 1000kcal/day to achieve weight loss of 5-10% in the non-pregnant obese. </p>
+           <p>Use of insulin sensitizers. </p>
+           <p>Regular antenatal screening for glucose intolerance, hypertension, macrosomia and excessive weight gain should be routine in the obese pregnant women. </p>
+           <p>Weight loss not recommended in pregnancy, gain should be restricted. </p>
+           <p>Weight loss postpartum must also be encouraged</p>
+           <p>Daily exercise of moderate intensity in combination with diet is better than either alone. </p>
+           <p>Modification of lifestyle. </p>
+           <p>Weight loss drugs - limited because of side effects and does not achieve attainment of normal body weight. </p>
+
+           <h4><span class="special-text-4">Ideal diet </span></h4>
+            <ul>
+                <li>Carbohydrate -50% </li>
+                <li>Protein- 15-20% </li>
+                <li>Fat- <30% </li>
+            </ul>
+
+            <h4><span class="special-text-4">Weight loss Drugs. </span></h4>
+            <ul>
+                <li>Amphetamine related drugs e.g. phentermine, phendimetrazine, benzphentamine </li>
+                <li>Serotonin and norepinepherine reuptake inhibitor e.g sibutramine </li>
+                <li>Sertonergic agent e.g. fluoxetine </li>
+                <li>Lipase inhibitor e.g. orlistat </li>
+                <li>Cannabinoid receptor agonist e.g. rimonabant </li>
+            </ul>
+
+
+            <section id='heading-9-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-9-1'>Preconceptional care</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>Obese women should receive pre-pregnancy counselling (via clinics for sub-fertility, recurrent miscarriage, or diabetes; via obstetric pre-pregnancy clinics; or via a general practitioner) and folic acid.       </p>
+                   <p>Encourage obese women to lose weight before conceiving, and use contraception while aiming for target weight (fertility rises as BMI decreases).</p>
+                   <p>Advise on the importance of healthy diet and exercise and the need to avoid excessive weight gain (refer to dietician if necessary) </p>
+                </div>
+            </section>
+
+            <section id='heading-9-2'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-9-2'>During ANC</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>Avoid weigh reduction and excessive weight gain </p>
+                   <p>Screen for medical conditions</p>
+                   <p>Fetal surveillance with obstetric USS</p>
+                   <p>Consider low dose aspirin in the presence of additional risk factors (obesity is associated with increased risk of pre-eclampsia); assess thrombosis risk and provide thromboprophylaxis if needed.</p>
+                   <p>Recommend detailed anomaly scan and serum screening for congenital abnormality. </p>
+                </div>
+            </section>
+
+            <section id='heading-9-3'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-9-3'>During labor</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>Close fetal monitoring using the cardiotocograph</p>
+                   <p>Fetal weight estimation</p>
+                   <p>Evaluate for cephalopelvic disproportion and prepare for shoulder dystocia.                   </p>
+                </div>
+            </section>
+
+            <section id='heading-9-4'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-9-4'>Surgeries </a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>Bariatric surgeries </p>
+                   <ul>
+                    <li>Gastric banding </li>
+                    <li>Sleeve gastrectomy </li>
+                    <li>Gastric bypass</li>
+                    <li>Duodenal switch</li>
+                   </ul>
+
+                   <h4><span class="special-text-4">Surgical risk from obesity in gynecology </span></h4>
+                   <ul>
+                    <li>Infection </li>
+                    <li>Thromboembolism </li>
+                    <li>Surgical difficulty </li>
+                    <li>Failure to complete surgery </li>
+                    <li>Bleeding </li>
+                    <li>Organ damage </li>
+                    <li>Anesthetic problems </li>
+                    <li>Cannulation </li>
+                    <li>Airway and ventilation </li>
+                    <li>Lifting and moving the woman </li>
+                    <li>Analgesia </li>
+                    <li>Nausea and vomiting</li>
+                   </ul>
+                </div>
+            </section>
+        </div>
+      </section>
+
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1" class="comment-button">
+            here
+            <img src="../images/icons/whatsapp.png" alt="Image Icon">
+          </a>
+        </div>
+
+
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+          <p><a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1">say hi👋</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 

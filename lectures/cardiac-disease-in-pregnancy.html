@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Cardiac disease in Pregnancy</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+    <h1>Cardiac disease in Pregnancy</h1>
+  
+    <!-- <div class="author-flex">
+      <div class="author-img">
+        <img  src="/contributors/vt1.jpeg" alt="">
+      </div>
+      <div>
+        <h2 class="name">Compiled by Victortayo</h2>
+        <p class="updated">last updated, Nov 2022</p>
+      </div>
+    </div> -->
+
+    <article class="notes">
+      <a id='top'></a>
+  <article>
+
+        <!-- LEARNING OBJECTIVES CONTAINER  -->
+            <div class="custom-card" id="custom-card-1">
+              <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+              <div class="title"> 
+                <h2>What You Will Learn</h2>
+              </div>
+              <div class="line">
+                <p>After reading this note, you should be able to...</p>
+              </div>
+              <div class="content">
+                <ul>
+                  <li><i>This content is not available yet.</i></li>
+              </ul>
+              </div>
+              <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+            </div>
+          
+        <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+      
+      
+        <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+          <div class="outline2">
+      
+            <input type="radio" name="control-2" id="show-2">
+            <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+            <input type="radio" name="control-2" id="hide-2">
+            <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+            <div class="contents">
+              <div class="icon-box">
+                <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                <img src="../images/icons/book.png" alt="Icon" class="icon">
+              </div>
+              <div id="tableOfContents">
+                  <ol id="tocList"></ol>
+              </div>
+            </div>
+           <div>
+      
+      <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+      <br>
+
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Introduction</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>It is estimated that 1% to 3% of women either have cardiac disease entering pregnancy or are diagnosed with cardiac disease while they are pregnant. </p>
+            <p>The frequency of specific types depends on the patient population and local conditions.</p>
+        </div>
+
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Etiology</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>Previously, Rheumatic heart disease caused about 90% of all cardiac disorders encountered in pregnancy. </p>
+            <p>This occurred as a result of abnormal reaction to a streptococcal infection (Rheumatic fever) which subsequently caused autoimmune damage to the heart valves.</p>
+            <p> Rheumatic heart disease now accounts for 40-50%</p>
+            <p>Congenital cardiac defects account for about 50% </p>
+            <p>Other causes include hypertensive heart disease, cardiomyopathies e.g. which account for about 10%</p>
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Physiologic changes in pregnancy</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>In normal pregnancy blood volume begins to increase in the first trimester to peak at 32/34 weeks gestation by 30% to 50% of pre pregnancy level. There is a corresponding increase in Cardiac output.</p>
+            <p>Cardiac Output (CO) = Stroke Volume x Heart Rate</p>
+            <p>Blood pressure = Cardiac Output x Peripheral resistance</p>
+
+            <h4><span class="special-text-4">Causes of increased cardiac output (CO) are </span></h4>
+            <ol>
+                <li>Increase in stroke volume (early pregnancy) </li>
+                <li>Increase in heart rate (late pregnancy) </li>
+                <li>Decreased peripheral resistance</li>
+                <li>Decreased blood viscosity</li>
+            </ol>
+            <p>This increase in CO is correspondingly affected by number of fetus and more in twins and higher order gestation. </p>
+
+            <h4><span class="special-text-4">Blood Pressure </span></h4>
+            <p>Blood pressure = Cardiac Output x Peripheral resistance</p>
+            <p>Remains almost at pre-pregnant levels in first trimester with a tendency to fall during particularly during mid-trimester as the systemic vascular/peripheral resistance falls significantly.  </p>
+            <p>The fall in the peripheral resistance is about 20-30% at 21-24 weeks & returns to normal at term. This fall is due to </p>
+            <ul>
+                <li>Trophoblastic erosion of endometrial vessels, the placental bed serves as a large arteriovenous shunt causing lowered systemic vascular resistance</li>
+                <li>Physiological vasodilatation which is believed to be secondary to endothelial prostacyclin and circulating progesterone.</li>
+            </ul>
+
+            <h4><span class="special-text-4">Colloid oncotic pressure </span></h4>
+            <p>This is another important variable</p>
+            <p>Both plasma and interstitial colloid oncotic pressure decrease (relative dilution of proteins) throughout pregnancy.</p>
+            <p>There is accompanying increase in capillary hydrostatic pressure (due to increase fluid volume).</p>
+            <p>An increase in capillary hydrostatic pressure or a decrease in colloid oncotic pressure may be forcing water out of the circulatory system and causing edema formation.</p>
+            <p>Sometimes a balance may be obtained because of the decrease in the interstitial oncotic pressure. </p>
+            <p>After delivery, decrease in plasma colloid oncotic pressure worsens reaching a peak between 6 to 16 hours and returns towards intrapartum level after 24 hours. </p>
+            <p>These changes can lead to dependant edema complicating diagnosis of cardiac decompensation.</p>
+
+            <figure>
+                <img src="../figures/cardiac-dx (1).jpg" alt="">
+                <figcaption> 
+                    Summary of CVS changes in pregnancy
+                    <ul>
+                        <li>CVP: Central venous pressure</li>
+                        <li>SVR:  Systemic vascular resistance</li>
+                        <li>PVR: Pulmonary vascular resistance</li>
+                    </ul> 
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="../figures/cardiac-dx (2).jpg" alt="">
+                <figcaption>Misleading features during pregnancy </figcaption>
+            </figure>
+
+            <p>The clinical features in a normal pregnancy which can mimic a cardiac disease are </p>
+            <ol>
+                <li>Dyspnea - due to hyperventilation, elevated diaphragm</li>
+                <li>Pedal edema </li>
+                <li>Cardiac impulse- Diffused and shifted laterally from elevated diaphragm.</li>
+                <li>Jugular veins may be distended and JVP raised.</li>
+                <li>Systolic ejection murmurs along the left sternal border occur in 96% of pregnant women and are believed to be caused by increased flow across the aortic and pulmonary valves.  </li>
+            </ol>
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Pathological CVS features</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>Criteria to diagnose cardiac disease during pregnancy:</p>
+            <ol>
+                <li>Presence of diastolic murmurs.</li>
+                <li>Systolic murmurs of severe intensity (grade 3).</li>
+                <li>Unequivocal enlargement of heart (X-ray).</li>
+                <li>Presence of severe arrhythmias, atrial fibrillation or flutter </li>
+            </ol>
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Physiological changes during labor and puerperium</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>First stage:  Cardiac output increases by 15%. Uterine contractions increases venous return, causing increase in cardiac output & can cause reflex bradycardia.</p>
+            <p>Second stage: Increase in intra-abdominal pressure (valsalva’s) causes decrease in venous return and cardiac output.</p>
+            <p>Third stage: Normal blood loss during delivery (around 250-350 ml). It leads to</p>
+            <ol>
+                <li>Decrease blood volume</li>
+                <li>Decrease cardiac output</li>
+            </ol>
+
+            <figure>
+                <img src="../figures/cardiac-dx (1).png" alt="">
+                <figcaption>The New York Heart Association (NYHA) grading of functional capacity of the heart </figcaption>
+            </figure>
+        </div>
+      </section>
+
+      <section id='header-6'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-6'>Prognosis</a>
+          </h2>
+        </header>
+        <div class='body'>
+           <p>Prognosis depends on the functional status</p>
+           <p>In general, women in NYHA classes I and II lesions usually do well during pregnancy and have a favorable prognosis with a mortality rate of <1%. </p>
+           <p>Patients in NYHA classes III and IV may have a mortality rate of 5% to 15%. These patients should be advised against becoming pregnant. </p>
+        </div>
+      </section>
+
+      <section id='header-7'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-7'> The indications for Termination of pregnancy</a>
+          </h2>
+        </header>
+        <div class='body'>
+           <p> Because of high maternal risks, MTP is indicated in:</p>
+           <ol>
+            <li>Eisenmenger’s syndrome.</li>
+            <li>Marfan’s syndrome with aortic involvement</li>
+            <li>Pulmonary hypertension.</li>
+            <li>Coarctation of aorta with valvular involvement. </li>
+           </ol>
+           <p>Termination should be done before 12 weeks of pregnancy.</p>
+           <p>Eisenmenger’s Syndrome: Increased pulmonary flow (L→R shunt due to ASD, VSD or PDA) causes hypertrophy of pulmonary arteries→ pulmonary hypertension→ reversal of shunt to R→L with cyanosis.</p>
+           <ul>
+            <li>Need to correct L→R shunt BEFORE it reverses.</li>
+            <li>Need to correct L→R shunt despite normal ABGs.</li>
+           </ul>
+        </div>
+      </section>
+
+      <section id='header-8'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-8'>Risk factors for cardiac failure during pregnancy </a>
+          </h2>
+        </header>
+        <div class='body'>
+           <ul>
+            <li>Infection</li>
+            <li>Anemia</li>
+            <li>Obesity </li>
+            <li>Hypertension </li>
+            <li>Hyperthyroidism</li>
+            <li>Multiple pregnancy</li>
+           </ul>
+        </div>
+      </section>
+
+      <section id='header-9'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-9'>Management areas  </a>
+          </h2>
+        </header>
+        <div class='body'>
+           <p>Areas be considered in the clinical approach to the woman with heart disease who is pregnant or considering pregnancy: </p>
+           <ol>
+            <li>Pre-conceptional - Risk stratification</li>
+            <li>Ante-partum management </li>
+            <li>Peri-partum management</li>
+           </ol>
+
+           <h4><span class="special-text-4">Pre-conceptional counselling </span></h4>
+           <p>This is an important aspect of management of the cardiac patient planning a pregnancy. </p>
+           <p>Ideally, the obstetrician and cardiologist should work together to help the patient make an informed decision. </p>
+           <p>Prevent an unwanted pregnancy and avoid the risks associated with pregnancy continuation or termination. </p>
+
+           <h4><span class="special-text-4">Antepartum care</span></h4>
+           <p>The chief aim of management of the patient in pregnancy is to keep patient within her cardiac reserve. </p>
+           <p>Ionotropic and chronotropic management of heart</p>
+           <p>Management of arrhythmias, tachyarrhythmia, flutters and fibrillations</p>
+           <p>Anticoagulants</p>
+           <p>Problems should be identified early and treated aggressively, especially pregnancy induced hypertension, hyperthyroidism, infection, and anemia.</p>
+           <p>Limit activity especially in women with ventricular dysfunction, left heart obstruction, or class III or IV symptoms.</p>
+           <p>Hospital admission by mid-second trimester may be advisable for some.</p>
+           <p>Beta-blockers rather than digoxin should be used to control the heart rate for patients with functionally significant mitral stenosis.</p>
+           <p>Sustained tachyarrhythmias, such as atrial flutter or atrial fibrillation, should be treated promptly.</p>
+           <p>If possible, all antiarrhythmic drugs should be avoided during the first trimester, and those known to be teratogenic should be avoided throughout pregnancy.</p>
+           <p>Because of their safety profiles, preferred drugs include digoxin, beta-blockers and adenosine.</p>
+
+           <h4><span class="special-text-4b"> Anticoagulation therapy</span></h4>
+           <p>Oral therapy with warfarin is effective and logistically easy. </p>
+           <p>However, it can affect embryonic organ development, although some evidence shows that a dosage of 5 mg per day may not be teratogenic.</p>
+           <p> Fetal intracranial bleeding is a risk throughout pregnancy, particularly during vaginal delivery, unless warfarin is stopped before labor.</p>
+           <p>Warfarin use in first trimester can be teratogenic and can cause fetal embryopathy (15 to 25 %) which includes: </p>
+           <ul>
+            <li>Nasal cartilage hypoplasia, </li>
+            <li>Stippling of bones (focal bone calcification or multiple ossification centers that severely deform the bone).</li>
+            <li>IUGR and </li>
+            <li>Brachydactyly (shortening of the fingers and toes due to unusually short bones).</li>
+           </ul>
+           <p>Heparin in adjusted subcutaneous doses does not cross the placenta and so has no teratogenic effects. </p>
+           <p>However, it may cause maternal thrombocytopenia and osteoporosis and is less effective in preventing thrombosis in patients with prosthetic valves.</p>
+           <p>More recent guidelines recommend either</p>
+           <ol>
+            <li>Adjusted-dose heparin during the entire pregnancy or</li>
+            <li>Adjusted-dose heparin until the 13th week of gestation, </li>
+            <ul>
+              <li>Warfarin from the 14th week to the middle of the third </li>
+              <li>Trimester, and then restart adjusted-dose heparin.</li>
+              <li>Low-molecular-weight heparin in adjusted</li>
+              <li>Doses is easier to administer and has been</li>
+              <li>Suggested as an alternative to adjusted-dose</li>
+              <li>Unfractionated heparin. </li>
+            </ul>
+           </ol>
+           
+           <h4><span class="special-text-4b">Antibiotic prophylaxis</span></h4>
+           <h4>High-risk patient </h4>
+           <p>Penicillin or Cephalosporin IM or IV, plus Gentamicin, 1.5 mg/kg IV 30 min before procedure;  </p>
+
+           <h4>High-risk patient with penicillin allergy </h4>
+           <p>Vancomycin 1 g IV over 2 hr plus Gentamicin, 1.5 mg/kg IV 30 min before procedure </p>
+
+           <h4><span class="special-text-4">Peripartum/intrapartum care</span></h4>
+           <p>Vaginal delivery generally preferred. Hemodynamic changes less with vaginal delivery. </p>
+           <p> Caesarean section only when indicated</p>
+           <p>Positioning the patient on her left side lessens the hemodynamic fluctuations associated with contractions when the patient is supine.</p>
+           <p>Cardiotocographic monitoring of fetal heart and maternal contractions.</p>
+           <p>Intermittent or continuous oxygen</p>
+           <p>Effective alleviation of pain, epidural recommended as it also reduces cardiac output by causing peripheral vasodilatation.</p>
+           <p>Forceps or vacuum extraction should be considered at the end of the second stage of labor to shorten 2nd and ease delivery.</p>
+           <p>Avoid use of ergometrine as it causes vasoconstriction and syntocinon can cause vasodilation and fluid retention.</p>
+
+           <h4><span class="special-text-4b">Fluid changes</span></h4>
+           <p>In the third stage up to a liter of blood may be returned to the circulation due to the relief of inferior vena cava obstruction  </p>
+           <p>Autotransfusion from the contracted and retracted emptied uterus</p>
+           <p>The intrathoracic and cardiac blood volume rise</p>
+           <p>Cardiac output increases by 60–80% </p>
+           <p>Followed by a rapid decline to prelabour values within about 1 hour of delivery.</p>
+           <p>Transfer of fluid from the extravascular space increases venous return and stroke volume further. </p>
+           <p>Those women with cardiovascular compromise are therefore most at risk of pulmonary edema during the second stage of labor and the immediate post-partum period</p>
+
+           <h4><span class="special-text-4">Postpartum care</span></h4>
+           <p>Lactation should be encouraged unless patient is in failure.</p>
+           <p> Cardiac output is not compromised during lactation. </p>
+           <p>Lactation is a pathway for fluid excretion and diuretic requirement may actually fall.</p>
+
+           <h4><span class="special-text-4b">Contraception</span></h4>
+           <p>Barrier methods – unreliable. Have high failure rates</p>
+           <p>COC contraindicated. They can cause thromboembolism.</p>
+           <p> IUCD can cause infection- endocarditis.</p>
+           <p>Progesterone only pill have better side effect profile & long acting slow releasing as Mirena intrauterine system have improved efficacy.</p>
+           <p>Sterilization where family completed (Laparoscopic clip sterilization carries risk). </p>
+
+        </div>
+      </section>
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1" class="comment-button">
+            here
+            <img src="../images/icons/whatsapp.png" alt="Image Icon">
+          </a>
+        </div>
+
+
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+          <p><a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1">say hi👋</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 
