@@ -534,12 +534,13 @@ table {
       width: 300px;
       max-height: 0;
       overflow: hidden;
-      background: var(--color-primary);
+      background: var(--color-primary-dark);
       border-radius: 5px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       transition: max-height 0.3s ease;
       z-index: 900;
       font-size: 0.7rem;
+
 
   }
   
@@ -564,14 +565,25 @@ table {
 
 #dynamic-toc a {
     text-decoration: none;
-    color: var(--color-secondary);
+    color: var(--color-secondary-lighter);
     font-size: 0.7rem; /* Slightly larger than parent, but still small */
 }
 
+#toc-panel-content h4 {
+  color: var(--color-primary-dark);
+  background-color: var(--color-tertiary-dark);
+  padding: .5rem;
+}
+l
 /* Dark Mode Styles */
+
+.dark-mode #toc-panel-content h4 {
+  color: var(--color-primary);
+  background-color: var(--color-primary-dark);
+}
+
 .dark-mode .floating-toc-button {
     background-color: var(--color-primary-darker);
-    color: va;
 }
 
 .dark-mode .toc-panel {
