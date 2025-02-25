@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Endoscopy in Obstetrics and Gynaecology",
       "Cytology in Gynecology with Emphasis on Screening Procedure",
       "Maternal Mortality and Perinatal Mortality in Nigeria Including Near Misses",
+      "Common Symptoms in Gynecology",
       "Benign lesions of the Vulva and Vagina",
       "Uterine Fibroids",
       "Utero-vaginal Prolapse",
