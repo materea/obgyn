@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Maternal Mortality and Perinatal Mortality in Nigeria Including Near Misses",
       "Common Symptoms in Gynecology",
       "History Taking in Obstetrics",
+      "Definitions of Terms in Gynecology",
       "Definitions of Terms in Obstetrics",
       "Benign lesions of the Vulva and Vagina",
       "Uterine Fibroids",
