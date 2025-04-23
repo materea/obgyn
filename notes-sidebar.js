@@ -58,6 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Antepartum Hemorrhage",
       "Postpartum Hemorrhage",
       "Gestational Trophoblastic Diseases",
+      "Molar Pregnancy",
       "Ectopic Pregnancy",
       "Pre-eclampsia and Eclampsia",
       "Malpresentation Abnormal lie and Position Including Unstable lie",

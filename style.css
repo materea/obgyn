@@ -744,7 +744,6 @@ p {
 
 .contributor-box {
   display: flex;
-  align-items: center;
   background-color: var(--color-secondary-lighter);
   padding: 15px;
   border-radius: 10px;
@@ -761,16 +760,18 @@ p {
 
 .contributor-info {
   flex: 1;
+  margin: 0;
+  padding: 0;
 }
 
 .contributor-name {
   margin: 0;
+  padding: 0;
   color: var(--color-primary-dark);
   font-size: .7rem;
 }
 
 .contributor-description {
-  margin-top: 5px;
   font-size: .6rem;
   color: var(--color-ash);
 }
