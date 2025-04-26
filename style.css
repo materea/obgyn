@@ -1254,11 +1254,11 @@ footer p, footer span{
   cursor: pointer;
   background-color: var(--color-secondary);
   color: var(--color-primary-dark);
-  max-width:40% ;
+  min-width:40% ;
   border-radius: 10px;
   margin-top: 20px;
   text-align: center;
-  padding: 5px;
+  padding: 3px;
   margin-bottom: 20px;
 }
 
