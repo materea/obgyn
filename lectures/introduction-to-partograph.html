@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Introduction to Partograph</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+
+  <!-- TOPIC AND IMAGE CONTAINER  -->
+
+  <div class="hero-container" style="background: url('../images/heros/'); background-size: cover; background-position: center center;">
+    <div class="hero-content">
+      <h1>Introduction to Partograph</h1>
+    </div>
+  </div>
+
+  <!-- END OF TOPIC AND IMAGE CONTAINER  -->
+  
+
+
+    <article class="notes">
+        <a id='top'></a>
+    <article>
+
+          <!-- LEARNING OBJECTIVES CONTAINER  -->
+              <div class="custom-card" id="custom-card-1">
+                <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+                <div class="title"> 
+                  <h2>What You Will Learn</h2>
+                </div>
+                <div class="line">
+                  <p>After reading this note, you should be able to...</p>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li><i>This content is not available yet.</i></li>
+                </ul>
+                </div>
+                <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+              </div>
+            
+          <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+        
+        
+          <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+            <div class="outline2">
+        
+              <input type="radio" name="control-2" id="show-2">
+              <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+              <input type="radio" name="control-2" id="hide-2">
+              <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+              <div class="contents">
+                <div class="icon-box">
+                  <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                  <img src="../images/icons/book.png" alt="Icon" class="icon">
+                </div>
+                <div id="tableOfContents">
+                    <ol id="tocList"></ol>
+                </div>
+              </div>
+             <div>
+        
+        <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+        
+        
+          <br>
+        
+            <!-- BEGINNING OF NOTE -->
+        
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Introduction </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4>Definition</h4>
+            <p>A <strong>graphical representation</strong> of events in labour measured against <strong>time in hours</strong>.</p>
+            
+            <h4>History</h4>
+            <ul>
+              <li><strong>1954</strong>: Friedman prepared the <strong>cervicograph</strong>.</li>
+              <li><strong>1972</strong>: Philpott and Castle (Rhodesia, now Zimbabwe) developed the first <strong>partograph</strong> using Friedman’s cervicograph and included the relationship of the <strong>presenting part</strong> to the <strong>maternal pelvis</strong>.</li>
+              <li><strong>1973</strong>: Introduced the concepts of <strong>"ALERT"</strong> and <strong>"ACTION"</strong> lines.</li>
+              <li><strong>1987</strong>: WHO produced a partograph to improve <strong>labour management</strong> and reduce <strong>maternal and fetal morbidity and mortality</strong>.</li>
+            </ul>
+
+        </div>
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Importance and Role of the Partograph</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <p><strong>Helps to Prevent:</strong></p>
+            <ul>
+              <li><strong>Prolonged labour</strong></li>
+              <li><strong>Cephalopelvic disproportion (CPD)</strong>, including:
+                <ul>
+                  <li><strong>Dehydration</strong></li>
+                  <li><strong>Sepsis</strong></li>
+                  <li><strong>Obstructed labour</strong></li>
+                  <li><strong>Fistulae</strong></li>
+                  <li><strong>Ruptured uterus</strong></li>
+                </ul>
+              </li>
+              <li><strong>Inefficient uterine action</strong></li>
+              <li><strong>Postpartum hemorrhage (PPH)</strong></li>
+              <li><strong>Maternal mortality</strong></li>
+              <li><strong>Perinatal mortality</strong></li>
+              <li><strong>Perinatal sepsis</strong></li>
+            </ul>
+            
+            <p><strong>Appropriate for Health Workers Who Can:</strong></p>
+            <ul>
+              <li><strong>Conduct and observe normal labour</strong></li>
+              <li><strong>Perform vaginal examinations</strong> and assess <strong>cervical dilatation</strong></li>
+              <li><strong>Plot cervical dilatation against time</strong></li>
+            </ul>
+            
+            <p><strong>Not Suitable For:</strong></p>
+            <ul>
+              <li><strong>Home delivery</strong></li>
+              <li><strong>Untrained health workers</strong></li>
+            </ul>
+            
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Composite WHO Partograph</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <ul>
+              <li>Includes <strong>8 hours</strong> of <strong>latent phase of labour</strong></li>
+              <li><strong>Alert line</strong> represents minimum progress at <strong>1 cm/hour</strong></li>
+              <li><strong>Action line</strong> is <strong>4 hours</strong> parallel to the alert line</li>
+              <li>Zone between <strong>alert</strong> and <strong>action line</strong> is the <strong>transfer zone</strong></li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Modified WHO Partograph</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <p><strong>Changes in the Modified Version:</strong></p>
+            <ul>
+              <li><strong>Latent phase removed</strong></li>
+              <li>To be filled from <strong>active phase</strong> (<strong>cervical dilatation of 4 cm</strong>)</li>
+              <li><strong>Alert and action line</strong> controversies exist at <strong>tertiary health facilities</strong></li>
+            </ul>
+            
+            <h4>Main Components of the Partograph</h4>
+            
+            <p><strong>Includes:</strong></p>
+            <ul>
+              <li><strong>Fetal condition</strong></li>
+              <li><strong>Progress of labour</strong></li>
+              <li><strong>Maternal condition</strong></li>
+            </ul>
+            
+            <p><strong>Notes:</strong></p>
+            <ul>
+              <li>A <strong>small box</strong> represents <strong>30 minutes</strong>; a <strong>bigger box</strong> represents <strong>1 hour</strong></li>
+              <li><strong>Pelvic examination</strong> is done every <strong>4 hours</strong> (some centres do it <strong>3-hourly</strong>)</li>
+              <li>Examinations may be more frequent if <strong>second stage</strong> is anticipated or based on <strong>fetomaternal condition</strong></li>
+              <li>The partograph should be completed for all <strong>parturients in the active phase of labour</strong></li>
+              <li>There is space for <strong>additional textual notes</strong></li>
+            </ul>
+            
+            <section id='heading-4-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-1'>Patient Information</a>
+                  </h3>
+                </header>
+                <div class='body'>
+
+                    <p><strong>Details to Record:</strong></p>
+                    <ul>
+                      <li><strong>Patient's name</strong></li>
+                      <li><strong>Age</strong></li>
+                      <li><strong>Parity</strong></li>
+                      <li><strong>Hospital number</strong></li>
+                      <li><strong>Date and time of admission</strong></li>
+                      <li><strong>Duration of ruptured membrane</strong></li>
+                    </ul>
+                    
+    
+                </div>
+              </section>
+
+              <section id='heading-4-2'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-2'>Fetal Condition</a>
+                  </h3>
+                </header>
+                <div class='body'>
+
+                  <ul>
+                    <li><strong>Fetal heart rate (FHR)</strong> is recorded every <strong>30 minutes</strong> in the <strong>first stage</strong> and every <strong>15 minutes</strong> in the <strong>second stage</strong> of labour</li>
+                    <li><strong>Normal FHR:</strong> <strong>110–160 beats per minute</strong></li>
+                  </ul>
+                  
+                  <h4>Membranes and Moulding</h4>
+                  
+                  <p><strong>Membranes and Liquor:</strong><br>
+                  Record at every <strong>vaginal examination (4-hourly)</strong>:</p>
+                  <ul>
+                    <li><strong>I:</strong> Intact membranes</li>
+                    <li><strong>C:</strong> Clear liquor</li>
+                    <li><strong>M:</strong> Meconium-stained liquor</li>
+                    <li><strong>B:</strong> Blood-stained liquor</li>
+                  </ul>
+                  
+                  <p><strong>Moulding:</strong><br>
+                  Record at every <strong>vaginal exam (4-hourly)</strong>:</p>
+                  <ul>
+                    <li><strong>(–):</strong> Sutures apart</li>
+                    <li><strong>(+):</strong> Sutures apposed</li>
+                    <li><strong>(++):</strong> Sutures overlapped and reducible</li>
+                    <li><strong>(+++):</strong> Sutures overlapped and not reducible</li>
+                  </ul>
+                  
+    
+                </div>
+              </section>
+
+              <section id='heading-4-3'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-3'>Progress of Labor</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                  <h4>Cervical Dilatation</h4>
+                  <ul>
+                    <li>Assess <strong>cervical dilatation</strong> at every <strong>vaginal examination</strong> and plot with an <strong>"X"</strong></li>
+                    <li>Place on the pre-drawn <strong>alert line</strong> at the corresponding cervical dilation</li>
+                    <li>The vertical line at this point is the <strong>Zero hour</strong>, where all first entries are made</li>
+                    <li>If the partograph has <strong>no pre-drawn lines</strong>:
+                      <ul>
+                        <li>Draw <strong>alert line</strong> from the first point at <strong>1 cm/hour to 10 cm</strong></li>
+                        <li>Draw <strong>action line</strong> <strong>4 hours</strong> to the right and parallel to the alert line</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  
+                  <p><strong>Descent of Presenting Part:</strong></p>
+                  <ul>
+                    <li>Marked with <strong>"O"</strong> for <strong>cephalic presentation</strong></li>
+                    <li>Marked with <strong>"W"</strong> for <strong>breech presentation</strong></li>
+                  </ul>
+                  
+                  <h4>Uterine Contractions</h4>
+                  <p><strong>Chart every 30 minutes:</strong></p>
+                  <ul>
+                    <li><strong>Palpate and count contractions</strong> in a <strong>10-minute interval</strong></li>
+                    <li>Record <strong>duration in seconds</strong> using symbols:
+                      <ul>
+                        <li><strong>Less than 20 seconds</strong> (weak): <strong>Dots</strong></li>
+                        <li><strong>20–40 seconds</strong> (moderate): <strong>Lines</strong></li>
+                        <li><strong>More than 40 seconds</strong> (strong): <strong>Shading</strong></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  
+    
+                </div>
+              </section>
+
+              <section id='heading-4-4'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-4'>Medications and Maternal Vital Signs</a>
+                  </h3>
+                </header>
+                <div class='body'>
+
+                  <p><strong>Medications:</strong></p>
+                  <ul>
+                    <li>Record the amount of <strong>oxytocin</strong> and volume of <strong>IV fluids</strong> given (if used)</li>
+                    <li>Record any <strong>additional drugs</strong> administered</li>
+                  </ul>
+                  
+                  <p><strong>Vital Signs Monitoring:</strong></p>
+                  <ul>
+                    <li><strong>Pulse:</strong> every <strong>30 minutes</strong>, marked with a <strong>dot (.)</strong></li>
+                    <li><strong>Blood Pressure:</strong> every <strong>4 hours</strong>, marked with an <strong>arrow (↕)</strong></li>
+                    <li><strong>Temperature:</strong> every <strong>2 hours</strong></li>
+                    <li><strong>Urine:</strong> Measure and record <strong>volume</strong>, <strong>protein</strong>, and <strong>acetone</strong> every time the woman passes urine</li>
+                  </ul>
+                  
+    
+                </div>
+              </section>
+
+              <section id='heading-4-5'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-5'> Summary of Labour</a>
+                  </h3>
+                </header>
+                <div class='body'>
+
+                  <p><strong>Details to document at the end of labour:</strong></p>
+                  <ul>
+                    <li><strong>Induction or onset of labour</strong></li>
+                    <li><strong>Method of delivery</strong></li>
+                    <li><strong>Placenta and membrane status</strong></li>
+                    <li><strong>Perineum:</strong> Intact / Laceration / Episiotomy</li>
+                    <li><strong>Blood loss</strong></li>
+                    <li><strong>Details of the baby</strong></li>
+                    <li><strong>Mother’s condition</strong> one hour postpartum</li>
+                  </ul>
+                  
+    
+                </div>
+              </section>
+
+
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'> Case Studies</a>
+          </h2>
+        </header>
+        <div class='body'>
+            
+          <section id='heading-5-1'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-5-1'>Case Study 1 </a>
+              </h3>
+            </header>
+            <div class='body'>
+
+              <p><strong>Mrs AA</strong></p>
+              <ul>
+                <li><strong>Gravida 2 Para 1+0</strong></li>
+                <li><strong>Hospital No:</strong> 134</li>
+                <li><strong>Gestational Age:</strong> 39 weeks</li>
+                <li><strong>Admitted:</strong> January 1, 2025, 8:00 am</li>
+              </ul>
+              
+              <p><strong>8:00 am</strong></p>
+              <ul>
+                <li><strong>3 contractions</strong> in 10 minutes, lasting <strong>40 seconds</strong></li>
+                <li><strong>Descent:</strong> 3/5</li>
+                <li><strong>FHR:</strong> 140 bpm</li>
+                <li><strong>Cervix:</strong> 7 cm dilated</li>
+                <li><strong>Membranes:</strong> Absent</li>
+                <li><strong>Liquor:</strong> Clear</li>
+                <li><strong>No caput or moulding</strong></li>
+                <li><strong>PR:</strong> 80/min</li>
+                <li><strong>BP:</strong> 120/80 mmHg</li>
+                <li><strong>Temp:</strong> 36.8°C</li>
+              </ul>
+              
+              <p><strong>11:00 am</strong></p>
+              <ul>
+                <li><strong>4 contractions</strong> in 10 minutes, lasting <strong>50 seconds</strong></li>
+                <li><strong>Descent:</strong> 2/5</li>
+                <li><strong>FHR:</strong> 156 bpm</li>
+                <li><strong>Fully dilated</strong></li>
+                <li><strong>Liquor:</strong> Clear</li>
+                <li><strong>PR:</strong> 90/min</li>
+                <li><strong>BP:</strong> 130/90 mmHg</li>
+                <li><strong>Temp:</strong> 37.2°C</li>
+              </ul>
+              
+              
+              <p><strong>Discussion Points:</strong></p>
+              <ul>
+                <li><strong>What is the diagnosis?</strong></li>
+                <li><strong>How will you treat the patient?</strong></li>
+              </ul>
+
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section id='heading-5-2'>
+        <header>
+          <h3>
+            <a aria-hidden href='#heading-5-2'>Case Study 2 </a>
+          </h3>
+        </header>
+        <div class='body'>
+
+          
+          <p><strong>Mrs BB</strong></p>
+          <ul>
+            <li><strong>Gravida 3 Para 2+0</strong></li>
+            <li><strong>Hospital No:</strong> 2355</li>
+            <li><strong>Gestational Age:</strong> 38 weeks 5 days</li>
+            <li><strong>Admitted:</strong> January 1, 2025, 8:00 am</li>
+          </ul>
+          
+          <p><strong>8:00 am</strong></p>
+          <ul>
+            <li><strong>3 contractions</strong> in 10 minutes, lasting <strong>40 seconds</strong></li>
+            <li><strong>Descent:</strong> 3/5</li>
+            <li><strong>FHR:</strong> 150 bpm</li>
+            <li><strong>Cervix:</strong> 5 cm dilated</li>
+            <li><strong>Membranes:</strong> Absent</li>
+            <li><strong>Liquor:</strong> Clear</li>
+            <li><strong>No caput or moulding</strong></li>
+            <li><strong>PR:</strong> 80/min</li>
+            <li><strong>BP:</strong> 130/80 mmHg</li>
+            <li><strong>Temp:</strong> 37.4°C</li>
+          </ul>
+          
+          <p><strong>12:00 noon</strong></p>
+          <ul>
+            <li><strong>2 contractions</strong> in 10 minutes, lasting <strong>20 seconds</strong></li>
+            <li><strong>Descent:</strong> 2/5</li>
+            <li><strong>Cervix:</strong> 6 cm dilated</li>
+            <li><strong>Liquor:</strong> Clear</li>
+            <li><strong>FHR:</strong> 160 bpm</li>
+            <li><strong>PR:</strong> 90/min</li>
+            <li><strong>BP:</strong> 130/90 mmHg</li>
+            <li><strong>Temp:</strong> 37.2°C</li>
+          </ul>
+          
+          <p><strong>Discussion Points:</strong></p>
+          <ul>
+            <li><strong>What is the diagnosis?</strong></li>
+            <li><strong>How will you treat the patient?</strong></li>
+          </ul>
+          
+
+        </div>
+      </section>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx2teDCmW6ivSeKLQg7zF_jy7Yfg_1Gqm84_UT0PQPATsNug/viewform?usp=sf_link" class="comment-button">
+            here
+            <!-- <img src="../images/icons/whatsapp.png" alt="Image Icon"> -->
+          </a>
+        </div>
+
+        <div class="contributors-container">
+
+          <h2 class="contributors-header">Contributors</h2>
+  
+        <br>
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/woman.png" alt="Contributor 1 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">Jane Smith</h3>
+                    <p class="contributor-description">She is not a real contributor.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                        </a>
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/twitter.png" alt="Social Icon 2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/man.png" alt="Contributor 2 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">John Doe</h3>
+                    <p class="contributor-description">He is not a real contributor.</p>
+                    <div class="social-links">
+                      <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                    </a>
+                    <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/linkedin.png" alt="Social Icon 2">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+
+<!-- Floating TOC Button -->
+<div id="toc-button" class="floating-toc-button">
+  Table of Contents
+</div>
+
+<!-- Expandable TOC Panel -->
+<div id="toc-panel" class="toc-panel">
+  <div id="toc-panel-content">
+      <h4>Table of Contents</h4>
+      <ol id="dynamic-toc"></ol>
+  </div>
+</div>
+
+
+
+<script>
+// Dynamically generate TOC from <h2> headings within <section> elements
+  const tocList = document.getElementById('dynamic-toc');
+const sections = document.querySelectorAll('section');
+const tocButton = document.getElementById('toc-button');
+const tocPanel = document.getElementById('toc-panel');
+
+// Generate Table of Contents
+sections.forEach(section => {
+    const headings = section.querySelectorAll('h2');
+    headings.forEach(heading => {
+        const headingAnchor = heading.querySelector('a');
+        if (headingAnchor && headingAnchor.getAttribute('href')) {
+            const tocItem = document.createElement('li');
+            const link = document.createElement('a');
+            link.textContent = headingAnchor.textContent || 'Untitled Section';
+            link.href = headingAnchor.getAttribute('href');
+            tocItem.appendChild(link);
+            tocList.appendChild(tocItem);
+        }
+    });
+});
+
+// Hide TOC button initially
+tocButton.style.display = 'none';
+
+// Show/hide TOC button on scroll
+window.addEventListener('scroll', () => {
+    // Show button after scrolling down 200 pixels
+    if (window.scrollY > 200) {
+        tocButton.style.display = 'block';
+    } else {
+        tocButton.style.display = 'none';
+        tocPanel.classList.remove('expanded');
+    }
+});
+
+// Toggle TOC panel
+tocButton.addEventListener('click', (event) => {
+    event.stopPropagation(); // Prevent immediate closure
+    tocPanel.classList.toggle('expanded');
+});
+
+// Close TOC panel when clicking outside
+document.addEventListener('click', (event) => {
+    if (tocPanel.classList.contains('expanded') && 
+        !tocPanel.contains(event.target) && 
+        event.target !== tocButton) {
+        tocPanel.classList.remove('expanded');
+    }
+});
+
+
+</script>
+
+</body>
+</html>
+ 
