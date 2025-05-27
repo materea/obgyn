@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Induction of Labour",
       "Management of Labor",
       "Introduction to Partograph",
+      "Introduction to the Labor Care Guide",
       "Assisted Vaginal Delivery",
       "Caesarean Section",
       "Obstructed Labour and its Management",
